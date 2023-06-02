@@ -585,6 +585,12 @@ body {
 .backdrop.is-hiden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
+ 
+.is-hidden {
+  visibility: none;
+  opacity: 0;
+  pointer-events: none;
+}
 
 .modal-close {
   position: absolute;
@@ -618,8 +624,3 @@ body {
   border: none;
 }
 
-.is-hidden {
-  visibility: none;
-  opacity: 0;
-  pointer-events: none;
-}
