@@ -471,6 +471,7 @@ border-radius: 2px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:hover,
@@ -496,6 +497,7 @@ border-radius: 2px;
 
 .examples-item {
   flex-basis: calc((100% - 48px) / 3);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-item:hover .examples-cover-text {
@@ -515,6 +517,7 @@ border-radius: 2px;
 
 .examples-link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-link:hover,
