@@ -620,7 +620,12 @@ body {
 .modal-close:hover,
 .modal-close:focus {
   background-color: var(--color-active);
-  color: var(--invert-color);
+  /* color: var(--invert-color); */
   border: none;
 }
+
+.modal-close:hover .modal-close-icon,
+.modal-close:focus .modal-close-icon {
+fill: var(--invert-color);
+} 
 
